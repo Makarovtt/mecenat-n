@@ -1,0 +1,48 @@
+.header_block {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header_logotype_block {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 450px;
+}
+
+.header_logo_img {
+  width: 100px;
+  height: 135px;
+}
+.header_logotype_text {
+  margin-left: 30px;
+  font-weight: 400;
+}
+.header_description_block {
+  width: 300px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.header_description_contacts_phone {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-flow: row nowrap;
+}
+.header_description_contacts_phone::before {
+  content: "";
+  display: block;
+  width: 31px;
+  height: 29px;
+  background: url(../images/icon-phone-header.svg) no-repeat center center;
+  margin-right: 15px;
+}
+
+.lines {
+  height: 22px;
+  background: url(../images/header-lines.svg) repeat-x top center;
+}

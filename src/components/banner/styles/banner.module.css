@@ -1,0 +1,113 @@
+.banner {
+  background-color: #eff5fc;
+  border-bottom: 1px solid #d4e8ff;
+}
+.banner_block {
+  max-width: 1900px;
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner_block span {
+  display: block;
+  text-align: center;
+}
+.banner_block h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+}
+.banner_block_image_block,
+.banner_block_content_block {
+  flex-shrink: 1;
+  position: relative;
+  width: 50%;
+  height: 450px;
+  z-index: 1;
+}
+.banner_block_images_wrap {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.banner_picture {
+  width: auto;
+  height: auto;
+}
+.transition {
+  transition: all 0.3s;
+}
+.banner_block_image_block img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.banner_block_content_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.banner_block_content_top {
+  margin: 40px 25px 25px;
+}
+.banner_block_content_title {
+  margin-top: 40px;
+}
+.banner_block_content_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.banner_block_content_presnt {
+  margin: 0 60px 20px;
+}
+
+.banner_block_content_line {
+  /* background: url(/public/images/banner/banner-line.svg) no-repeat center top; */
+  height: 40px;
+}
+
+.banner_btn_show_programm {
+  padding: 6px 15px;
+  border: 1px solid #126688;
+  border-radius: 3px;
+  background: #126688;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+.banner_btn_show_programm:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.banner_block_content_dots {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 70px;
+}
+.banner_dts_item {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: lightgray;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.dts_active {
+  background-color: #126688;
+  cursor: default;
+}

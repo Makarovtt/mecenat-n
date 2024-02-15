@@ -1,0 +1,282 @@
+.aboutus {
+  background: #fff;
+}
+.aboutus_block {
+  max-width: 1900px;
+  margin: 60px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about_block_image_block,
+.about_block_content_block {
+  padding: 30px;
+  flex-shrink: 1;
+  width: 50%;
+}
+.about_block_image_block {
+  text-align: center;
+  max-width: 500px;
+}
+.header_logotype_text {
+  margin-top: 20px;
+}
+.about_block_content_block li {
+  margin: 10px 0;
+}
+.about_block_content_block a {
+  text-decoration: underline;
+  color: #126688;
+}
+.about_block_content_block a:hover {
+  text-decoration: none;
+}
+
+/* Програмы */
+.programs {
+  background: #f0f9fa;
+}
+.programs_block {
+  padding: 90px;
+}
+.programs h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.programs_block {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.programs_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: row wrap;
+  row-gap: 50px;
+  column-gap: 70px;
+}
+
+.programs_list-item {
+  margin: 40px;
+  text-align: center;
+}
+.programs_list_item_title {
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #126688;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+/* End Програмы */
+
+/* Новости */
+.news {
+  background: #fff;
+}
+.news_block {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 60px;
+}
+
+.news_block h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: left;
+  margin: 30px 0;
+}
+
+.news_list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  list-style: none;
+}
+.news_list li {
+  width: 299px;
+  margin: 30px;
+}
+
+/* END Новости */
+
+/* Кому помочь */
+.helps {
+  background: #f0f9fa;
+  padding: 30px 0;
+}
+.helps_block {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.helps h2 {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+  color: #126688;
+  font-style: italic;
+}
+.mrg_top {
+  margin-top: 60px;
+}
+.hepls_justhelped_block {
+  max-width: 1000px;
+  margin: 40px auto;
+  position: relative;
+}
+.help_justhelped_arrows {
+  position: absolute;
+  right: 0;
+  top: -38px;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
+  column-gap: 5px;
+}
+.help_justhelped_arrows_left,
+.help_justhelped_arrows_right {
+  width: 32px;
+  height: 32px;
+  background: #2fb0e3;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help_justhelped_arrows_right svg {
+  transform: rotate(180deg);
+}
+.help_justhelped_arrows_left:hover,
+.help_justhelped_arrows_right:hover {
+  opacity: 1;
+}
+
+.help_justhelped_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+
+  background: #fff;
+}
+.help_justhelped_content_image img {
+  user-select: none;
+}
+
+.help_justhelped_content_block {
+  padding: 20px;
+}
+.help_justhelped_content_title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #126688;
+  text-align: left;
+  margin: 0 0 30px;
+}
+.help_justhelped_content_text {
+  font-style: 1em;
+}
+.help_justhelped_content_descript {
+  text-align: right;
+  font-size: 0.8em;
+  color: #ababab;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.help_needhelp_list {
+  list-style: none;
+  margin-left: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.help_needhelp_list li {
+  background-color: white;
+  margin: 20px;
+  width: 171px;
+}
+.help_needhelp_item_text {
+  padding: 10px;
+  font-size: 0.9em;
+}
+/* End Кому помочь */
+
+/* Получить помощь */
+.gethelp_block {
+  max-width: 1900px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gethelp_btn {
+  margin: 80px;
+  font-size: 2em;
+  border: 1px solid rgba(22, 75, 114, 0.36);
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 20px 70px;
+  font-style: italic;
+  color: #126688;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+/* End Получить помощь */
+
+/* Кто нам уже помог */
+.mecenats {
+  background: #2fb0e3;
+  padding: 50px;
+}
+.mecenats_block {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.mecenats h2 {
+  font-size: 2em;
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+}
+
+.mecenats_list {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.mecenats_item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-flow: row nowrap;
+  color: white;
+
+  margin: 25px 0;
+}
+.mecenats_item div {
+  text-wrap: nowrap;
+}
+.mecenats_dots {
+  width: 98%;
+  border-bottom: 1px dashed white;
+  margin: -10px 20px 0;
+  opacity: 0.5;
+}
+/* END Кто нам уже помог */
