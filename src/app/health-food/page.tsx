@@ -1,4 +1,4 @@
-import HealthFood from "../../components/main/health-food";
+import { HealthFood } from "@/components/main/health-food/health-food";
 
 export default function Home() {
   return (

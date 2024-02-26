@@ -1,5 +1,5 @@
 export function PayUCassa() {
-  const htmlString: string = `<div style='margin-left: 20px;'>Пожертвовать обществу</div><link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css">
+  const htmlString: string = `<div style='margin-left: 20px;'>Пожертвовать Фонду</div><link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css">
   <form class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
   
       

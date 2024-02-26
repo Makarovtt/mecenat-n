@@ -21,7 +21,7 @@ if($_POST['agree'] && $_POST['useremail'] && $_POST['username'] && $_POST['usert
                     Сообщение: ".$usertext."<br>";
     
     
-        $to = 'makarov.t.t@yandex.ru';
+        $to = 'maecenas-n@mail.ru, makarovt_t@mail.ru';
         $from = 'info@меценат-н.ru';
         // тема письма
         $subject = 'Обратная связь с сайта благотворительного фонда';

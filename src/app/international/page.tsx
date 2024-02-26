@@ -1,4 +1,4 @@
-import International from "../../components/main/international";
+import { International } from "@/components/main/international/international";
 
 export default function Home() {
   return (
