@@ -221,7 +221,7 @@ export const CONTACTS = {
   address: "414000, г. Астрахань, ул. Дантона, строение 3/4",
   inn: "ИНН: 3000007227",
   ogrn: "ОГРН: 1233000002751",
-  email: "Email: maecenas-n@mail.ru",
+  email: "maecenas-n@mail.ru",
 };
 
 import iconTelegram from "../footer/images/icon-telegram.svg";

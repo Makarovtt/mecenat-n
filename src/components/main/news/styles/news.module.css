@@ -1,78 +1,78 @@
 .content {
-	margin: 100px 0;
+  margin: 100px 0;
 }
 .content_block {
-	max-width: 1900px;
-	margin: 0 auto;
+  max-width: 1900px;
+  margin: 0 auto;
 }
 
 .content_news {
-	max-width: 1200px;
-	margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .content_block h1 {
-	font-size: 2.5em;
-	font-weight: 700;
-	text-align: center;
-	margin: 30px 0;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
 }
 .content_block h2 {
-	font-size: 1.8em;
-	font-weight: 600;
-	text-align: center;
-	margin: 50px 0 30px;
-	color: #2c5f73;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0 30px;
+  color: #2c5f73;
 }
 
 .news_list {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: flex-start;
-	justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
 
-	list-style: none;
+  list-style: none;
 }
 .news_list li {
-	width: 299px;
-	margin: 30px;
+  width: 299px;
+  margin: 30px;
 }
 
 .news_item_image {
-	display: block;
+  display: block;
 }
 .news_item_date {
-	color: #bcbcbc;
-	margin: 15px 0;
-	font-size: 0.8em;
+  color: #bcbcbc;
+  margin: 15px 0;
+  font-size: 0.8em;
 }
 .news_item_title {
-	color: #126688;
-	font-size: 0.8em;
-	/* font-style: italic; */
-	line-height: 1.2;
-	margin: 15px 0;
-	text-transform: uppercase;
-	font-weight: 700;
+  color: #126688;
+  font-size: 0.8em;
+  /* font-style: italic; */
+  line-height: 1.2;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .news_item_text {
-	font-size: 0.9em;
-	margin-bottom: 25px;
+  font-size: 0.9em;
+  margin-bottom: 25px;
 }
 .news_item_more {
-	font-size: 0.8em;
-	color: #126688;
-	font-weight: 700;
+  font-size: 0.8em;
+  color: #126688;
+  font-weight: 700;
 
-	display: flex;
-	align-items: center;
-	justify-content: left;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .news_item_more a {
-	color: #126688;
+  color: #126688;
 }
 .news_item_more a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 /* .news_item_more::before {
 	content: "";
@@ -84,8 +84,9 @@
 } */
 
 .news_date {
-	font-size: 0.8em;
-	color: #bcbcbc;
-	font-style: italic;
-	padding-left: 20px;
+  font-size: 0.8em;
+  color: #bcbcbc;
+  font-style: italic;
+  padding-left: 20px;
+  margin-bottom: 25px;
 }

@@ -36,7 +36,15 @@ export function Footer() {
                 <br />
                 {CONTACTS.ogrn}
               </div>
-              <div>{CONTACTS.email}</div>
+              <div>
+                Email:&nbsp;
+                <Link
+                  href={`mailto:${CONTACTS.email}`}
+                  className="hover:underline"
+                >
+                  {CONTACTS.email}
+                </Link>
+              </div>
             </div>
           </div>
           <div className={classes.footer_top_social_block}>

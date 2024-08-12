@@ -11,7 +11,7 @@ async function getNewsData(pars: GetId) {
 }
 
 export async function generateStaticParams() {
-  return [{ single: "1" }, { single: "2" }];
+  return [{ single: "1" }, { single: "2" }, { single: "3" }, { single: "4" }];
 }
 
 interface Props {

@@ -41,7 +41,7 @@ export function ModalCustom({
     >
       <div
         className={clsx(
-          "bg-white p-6 rounded-lg w-full min-h-[320px]",
+          "bg-white p-6 rounded-lg w-full min-h-[320px] flex items-center justify-center",
           styleContent,
           {
             md: "max-w-[640px]",
@@ -49,7 +49,7 @@ export function ModalCustom({
           }[width],
         )}
       >
-        {children}
+        <div className="h-full">{children}</div>
       </div>
       <Button
         onClick={onClose}

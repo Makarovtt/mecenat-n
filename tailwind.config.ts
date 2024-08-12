@@ -12,6 +12,9 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      maxw: "1900px",
+    },
     container: {
       center: true,
       padding: "2rem",
