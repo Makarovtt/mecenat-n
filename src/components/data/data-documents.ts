@@ -14,7 +14,7 @@ export const DATA_DOCUMENTS: DataStack[] = [
   {
     id: 1,
     title: "Устав благотворительного фонда",
-    href: "/documents/files/ustav.pdf",
+    href: "/documents/registration/ustav.pdf",
     type: ["all", "registration"],
     icon: iconDownloadPDF,
   },
@@ -28,14 +28,14 @@ export const DATA_DOCUMENTS: DataStack[] = [
   {
     id: 2,
     title: "Свидетельство о государственной регистрации НКО",
-    href: "/documents/gos_registr.pdf",
+    href: "/documents/registration/gos_registr.pdf",
     type: ["all", "registration"],
     icon: iconDownloadPDF,
   },
   {
     id: 3,
     title: "Свидетельство о постановке на учет в налоговом органе",
-    href: "/documents/postanov_na_uchet.pdf",
+    href: "/documents/registration/postanov_na_uchet.pdf",
     type: ["all", "registration"],
     icon: iconDownloadPDF,
   },
@@ -69,7 +69,8 @@ export const DATA_DOCUMENTS: DataStack[] = [
   },
   {
     id: 8,
-    title: "Положение о порядке привлечения денежных средств с использованием ящиков для сбора благотворительных пожертований",
+    title:
+      "Положение о порядке привлечения денежных средств с использованием ящиков для сбора благотворительных пожертований",
     href: "/documents/polojenie_use_cash.pdf",
     type: ["all"],
     icon: iconDownloadPDF,
